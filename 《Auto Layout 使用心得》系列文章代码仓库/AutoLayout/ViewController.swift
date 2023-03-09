@@ -45,6 +45,7 @@ class ViewController: UIViewController {
         hiddenTopViewDefaultPosition = -(hiddenTopView.frame.height/2)
         topLayoutConstraintOfHiddenTopView.constant = hiddenTopViewDefaultPosition
         rightDistanceOfXiaoyun.constant = 60
+        print("Unsupported format")
         
         xiaoyunOriginX = xiaoyunImageView.frame.origin.x
         
